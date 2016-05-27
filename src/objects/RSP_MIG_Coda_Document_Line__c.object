@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>RSP_Coda_Matching_Ref__c</fullName>
+        <externalId>false</externalId>
+        <label>RSP Coda Matching Ref</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RSP_Coda_Reconciliation_Ref__c</fullName>
+        <externalId>false</externalId>
+        <label>RSP Coda Reconciliation Ref</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RSP_MIG_Coda_Document_Header__c</fullName>
+        <externalId>false</externalId>
+        <label>RSP MIG Coda Document Header</label>
+        <referenceTo>RSP_MIG_Coda_Document_Header__c</referenceTo>
+        <relationshipLabel>RSP MIG Coda Document Lines</relationshipLabel>
+        <relationshipName>RSP_MIG_Coda_Document_Lines</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>src_cmpcode__c</fullName>
+        <externalId>false</externalId>
+        <label>src_cmpcode</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_descr__c</fullName>
+        <externalId>false</externalId>
+        <label>src_descr</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_doccode__c</fullName>
+        <externalId>false</externalId>
+        <label>src_doccode</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_docnum__c</fullName>
+        <externalId>false</externalId>
+        <label>src_docnum</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_duedate__c</fullName>
+        <externalId>false</externalId>
+        <label>src_duedate</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_el1__c</fullName>
+        <externalId>false</externalId>
+        <label>src_el1</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_el2__c</fullName>
+        <externalId>false</externalId>
+        <label>src_el2</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_el3__c</fullName>
+        <externalId>false</externalId>
+        <label>src_el3</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_el4__c</fullName>
+        <externalId>false</externalId>
+        <label>src_el4</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_linetype__c</fullName>
+        <externalId>false</externalId>
+        <label>src_linetype</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_paydate__c</fullName>
+        <externalId>false</externalId>
+        <label>src_paydate</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_ref1__c</fullName>
+        <externalId>false</externalId>
+        <label>src_ref1</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_ref2__c</fullName>
+        <externalId>false</externalId>
+        <label>src_ref2</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_ref3__c</fullName>
+        <externalId>false</externalId>
+        <label>src_ref3</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_ref4__c</fullName>
+        <externalId>false</externalId>
+        <label>src_ref4</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_ref5__c</fullName>
+        <externalId>false</externalId>
+        <label>src_ref5</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_ref6__c</fullName>
+        <externalId>false</externalId>
+        <label>src_ref6</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_statpay__c</fullName>
+        <externalId>false</externalId>
+        <label>src_statpay</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_statrec__c</fullName>
+        <externalId>false</externalId>
+        <label>src_statrec</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_valuedoc__c</fullName>
+        <externalId>false</externalId>
+        <label>src_valuedoc</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_valuedual__c</fullName>
+        <externalId>false</externalId>
+        <label>src_valuedual</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>src_valuehome__c</fullName>
+        <externalId>false</externalId>
+        <label>src_valuehome</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tgt_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>tgt_Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>RSP MIG Coda Document Lines</relationshipLabel>
+        <relationshipName>RSP_MIG_Coda_Document_Lines</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tgt_Bank__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>tgt_Bank</label>
+        <referenceTo>c2g__codaBankAccount__c</referenceTo>
+        <relationshipLabel>RSP MIG Coda Document Lines</relationshipLabel>
+        <relationshipName>RSP_MIG_Coda_Document_Lines</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tgt_Dimension1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>tgt_Dimension1</label>
+        <referenceTo>c2g__codaDimension1__c</referenceTo>
+        <relationshipLabel>RSP MIG Coda Document Lines</relationshipLabel>
+        <relationshipName>RSP_MIG_Coda_Document_Lines</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tgt_Dimension2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>tgt_Dimension2</label>
+        <referenceTo>c2g__codaDimension2__c</referenceTo>
+        <relationshipLabel>RSP MIG Coda Document Lines</relationshipLabel>
+        <relationshipName>RSP_MIG_Coda_Document_Lines</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tgt_Dimension3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>tgt_Dimension3</label>
+        <referenceTo>c2g__codaDimension3__c</referenceTo>
+        <relationshipLabel>RSP MIG Coda Document Lines</relationshipLabel>
+        <relationshipName>RSP_MIG_Coda_Document_Lines</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tgt_Dimension4__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(  BEGINS(src_el1__c,&quot;2&quot;), &quot;Debtors&quot;
+,
+If(  BEGINS(src_el1__c,&quot;3&quot;), &quot;Creditors&quot;
+,
+NULL 
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>tgt_Dimension4</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tgt_DualValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+
+AND( src_cmpcode__c = &quot;RSPINTL&quot;, RSP_MIG_Coda_Document_Header__r.src_curdoc__c = &quot;GBP&quot;) 
+, 
+NULL 
+, 
+IF( 
+AND( src_cmpcode__c = &quot;RSPSETT&quot;, RSP_MIG_Coda_Document_Header__r.src_curdoc__c = &quot;GBP&quot;) 
+, 
+NULL, 
+src_valuehome__c 
+
+) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>tgt_DualValue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tgt_GeneralLedgerAccount__c</fullName>
+        <externalId>false</externalId>
+        <label>tgt_GeneralLedgerAccount</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tgt_HomeValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+
+AND( src_cmpcode__c = &quot;RSPINTL&quot;,    RSP_MIG_Coda_Document_Header__r.src_curdoc__c = &quot;EUR&quot;)
+,
+NULL
+,
+IF(
+AND( src_cmpcode__c = &quot;RSPSETT&quot;,  RSP_MIG_Coda_Document_Header__r.src_curdoc__c = &quot;GBP&quot;)
+,
+NULL,
+ src_valuehome__c 
+
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>tgt_HomeValue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tgt_LineDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>If ( tgt_LineType__c = &quot;General Ledger Account&quot;
+,
+
+src_descr__c &amp;  &quot; / CODA rec status: &quot; &amp; src_statrec__c 
+,
+
+src_descr__c &amp; &quot; / Due Date: &quot; &amp;
+
+left( src_duedate__c ,10) 
+
+
+&amp; &quot; / CODA pay status: &quot; &amp; src_statpay__c &amp; &quot; / Pay Date: &quot;  &amp;
+
+left( src_paydate__c ,10) 
+
+
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>tgt_LineDescription</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tgt_LineType__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  ISBLANK(tgt_Account__c) = true
+, 
+
+(IF (BEGINS( src_el1__c , &quot;4&quot;)
+
+, 
+&quot;Bank Account&quot;
+,
+
+&quot;General Ledger Account&quot;))
+
+
+, 
+
+&quot;Account - Customer&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>tgt_LineType</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>RSP MIG Coda Document Line</label>
+    <listViews>
+        <fullName>All_w_FFA_Values</fullName>
+        <columns>NAME</columns>
+        <columns>src_cmpcode__c</columns>
+        <columns>src_doccode__c</columns>
+        <columns>src_docnum__c</columns>
+        <columns>src_el1__c</columns>
+        <columns>tgt_GeneralLedgerAccount__c</columns>
+        <columns>tgt_LineType__c</columns>
+        <columns>tgt_Account__c</columns>
+        <columns>tgt_Dimension1__c</columns>
+        <columns>tgt_Dimension2__c</columns>
+        <columns>tgt_Dimension3__c</columns>
+        <columns>tgt_Dimension4__c</columns>
+        <columns>tgt_LineDescription__c</columns>
+        <columns>src_valuedoc__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All w. FFA Values</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CDL{000000}</displayFormat>
+        <label>RSP MIG Coda Document Line Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>RSP MIG Coda Document Lines</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>
